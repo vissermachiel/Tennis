@@ -1,9 +1,15 @@
 # Tennis
 
-### DSS_dubbel
+### dss_doubles
+Calculates the results of a doubles match in tennis according to the updated Dynamic Rating System (DSS) as used by the Royal Dutch Lawn Tennis Association (KNLTB) since the year 2022.
+
+### dss_doubles_old
 Calculates the rating results for a doubles match according to the Dynamic Rating System (DSS) as used by the Royal Dutch Lawn Tennis Association (KNLTB).
 
-### DSS_enkel
+### dss_singles
+Calculates the results of a singles match in tennis according to the updated Dynamic Rating System (DSS) as used by the Royal Dutch Lawn Tennis Association (KNLTB) since the year 2022.
+
+### dss_singles_old
 Calculates the rating results for a singles match according to the Dynamic Rating System (DSS) as used by the Royal Dutch Lawn Tennis Association (KNLTB).
 
 ### MijnKNLTB
