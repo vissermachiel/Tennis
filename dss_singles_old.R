@@ -1,4 +1,4 @@
-DSS_enkel <- function(rating_1, rating_2, winst_1) {
+dss_singles_old <- function(rating_1, rating_2, winst_1) {
   
   # Berekent de wedstrijdresultaten voor het enkelspel volgens het Dynamisch 
   #   Speelsterkte Systeem (DSS), zoals gehanteerd door de KNLTB.
@@ -65,6 +65,8 @@ DSS_enkel <- function(rating_1, rating_2, winst_1) {
               "resultaat_2" = resultaat_2))
 }
 
-# DSS_enkel(rating_1 = 5.1666,
-#           rating_2 = 4.6301,
-#           winst_1 = TRUE)
+# dss_singles_old(
+#   rating_1 = 5.1666,
+#   rating_2 = 4.6301,
+#   winst_1 = TRUE
+# )
