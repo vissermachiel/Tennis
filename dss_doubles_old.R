@@ -1,4 +1,4 @@
-DSS_dubbel <- function(rating_1, rating_2, rating_3, rating_4, winst_12) {
+dss_doubles_old <- function(rating_1, rating_2, rating_3, rating_4, winst_12) {
   
   # Berekent de wedstrijdresultaten voor het dubbelspel volgens het Dynamisch 
   #   Speelsterkte Systeem (DSS), zoals gehanteerd door de KNLTB.
@@ -193,8 +193,10 @@ DSS_dubbel <- function(rating_1, rating_2, rating_3, rating_4, winst_12) {
               "resultaat_4" = resultaat_4))
 }
 
-# DSS_dubbel(rating_1 = 5.6093,
-#            rating_2 = 4.6385,
-#            rating_3 = 5.4011,
-#            rating_4 = 5.8482,
-#            winst_12 = TRUE)
+# dss_doubles_old(
+#   rating_1 = 5.6093,
+#   rating_2 = 4.6385,
+#   rating_3 = 5.4011,
+#   rating_4 = 5.8482,
+#   winst_12 = TRUE
+# )
