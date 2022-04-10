@@ -32,7 +32,7 @@ DSS_dubbel <- function(rating_1, rating_2, rating_3, rating_4, winst_12) {
     resultaat_4 <- NA
     
   } else {
-    # Is in de partij minimaal één combinatie betrokken waarin het verschil in 
+    # Is in de partij minimaal Ã©Ã©n combinatie betrokken waarin het verschil in 
     # rating tussen de partners tussen de 1.5 en 2.5 ligt of hier gelijk aan is?
     if ((verschil_12 >= 1.5 & verschil_12 <= 2.5) | 
         (verschil_34 >= 1.5 & verschil_34 <= 2.5)) {
